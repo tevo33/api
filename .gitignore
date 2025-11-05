@@ -1,0 +1,51 @@
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+.log.
+*.pid
+*.seed
+*.pid.lock
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Build / Bundles
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+.svelte-kit/
+.vercel/
+.netlify/
+
+# Package managers
+.pnp/
+.pnp.js
+
+# TypeScript
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
