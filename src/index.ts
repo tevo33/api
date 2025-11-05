@@ -10,7 +10,7 @@ const port = 3000;
 app.use(express.json());
 
 // Rotas
-app.use("/api/produtos", router);
+app.use("/", router);
 
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
