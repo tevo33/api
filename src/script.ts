@@ -5,6 +5,10 @@ const API_URL = "http://localhost:3000/post"; // ajuste a porta conforme tua API
 
 async function sendPost() {
   try {
+
+
+    console.log("aaaa")
+
     const response = await fetch(API_URL, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -24,7 +28,7 @@ async function sendPost() {
 }
 
 async function main() {
-  for( let i = 0; i > 15000; i++)
+  for( let i = 0; i < 15000; i++)
   {
     sendPost()
   }
